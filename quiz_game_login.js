@@ -1,5 +1,5 @@
-var player1_name;
-var player2_name;
+var player1_name = "";
+var player2_name = "";
 function adduser(){
     player1_name = document.getElementById("player1_name_input").value;
     player2_name = document.getElementById("player2_name_input").value;

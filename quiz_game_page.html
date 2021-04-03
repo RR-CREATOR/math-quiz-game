@@ -16,16 +16,20 @@
 	
 	<div class="container">
 		<center>
+			<div class="contains"><h4 id="player1_name"></h4> <span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4> <span id="player2_score"></span></div>
 			<h2 style="color: maroon;">The Math Quiz Game!</h2>
+			<div class="contains">
 			<h4 id="player_question_turn">Question turn: <b id="question"></b></h4>
 	<br>
-	<h4 id="player_answer_turn">Answer turn: <b id="answer"></b></h4>
+	<h4 id="player_answer_turn" class="" >Answer turn: <b id="answer"></b></h4></div>
 			
 			<h3 id="player_question"></h3>
 			<h3 id="player_answer"></h3>
 			<div id="output" class="col-lg-6">
 				<label>Question:<b id="putquestion" style="color: red"></b></label><br>
-				<label>Answer: </label>&nbsp;<input type="text" id="answer" class="form-control" placeholder="Answer">
+				<row><label>Answer: <input type="text" id="answer" class="form-control" placeholder="Answer"></label></row>
 				<br>
 				<button onclick="check()" class="btn btn-info">Check</button>
 				</div>
